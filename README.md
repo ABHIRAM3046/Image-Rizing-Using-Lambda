@@ -3,6 +3,9 @@
 ## Overview
 This project demonstrates how to create an AWS Lambda function that automatically generates thumbnails for images uploaded to an Amazon S3 bucket. When an image is uploaded to the source S3 bucket, Lambda resizes the image and saves the thumbnail to a destination S3 bucket.
 
+## Architecture
+![image](https://github.com/user-attachments/assets/bef7e5fd-62ff-4d8a-8e6d-310f1d8de235)
+
 ## Features
 - Automatically generates thumbnails for images.
 - Serverless architecture using AWS Lambda.
@@ -97,6 +100,7 @@ This project demonstrates how to create an AWS Lambda function that automaticall
 
 3. **Delete IAM Role and Policy:**
    - Go to the IAM console and delete the role and policy created for this project.
+## Conclusion
+This project showcases the power and flexibility of AWS Lambda and Amazon S3 for automated image processing. By setting up a Lambda function to handle image resizing, you can efficiently manage and process image files in a serverless environment. The integration of Lambda with S3 triggers provides a seamless way to handle file operations without the need for manual intervention. This solution is not only scalable but also cost-effective, making it ideal for applications that require image manipulation.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Feel free to modify and extend this project to fit your specific use case. For further learning, you can explore additional AWS services and consider more advanced image processing techniques.
