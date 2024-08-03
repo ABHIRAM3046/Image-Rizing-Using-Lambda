@@ -1,6 +1,10 @@
-# Thumbnail Generator
+# Thumbnail Image Generator
 
-This project uses AWS Lambda to automatically generate thumbnails for images uploaded to an S3 bucket.
+This project uses AWS Lambda to automatically generate thumbnail images for images uploaded to an S3 bucket.
+
+
+![image](https://github.com/user-attachments/assets/a58ea0c7-5f6c-42e6-b7aa-ad132f1068bc)
+
 
 ## Setup Instructions
 
